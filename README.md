@@ -1,3 +1,2 @@
-﻿# formulario_ionic
+﻿# A parte do codigo da web está na pagina CADASTRO, siga o caminho: SRC\APP\CADASTRO e la se encontra todos os codigos que utilizei.
  
- A parte do código da pagina, Src/app/tab/
