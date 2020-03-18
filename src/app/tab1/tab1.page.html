@@ -1,17 +1,27 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+<div>
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-input type="text" maxlength="30" placeholder="Nome"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" maxlength="40" placeholder="Email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="number/text" maxlength="10" placeholder="Data de Nascimento"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" maxlength="40" placeholder="Endereço"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" maxlength="11" placeholder="CPF"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" maxlength="9" placeholder="RG"></ion-input>
+      </ion-item>
+      <ion-item>
+        <button ion-button outline>Confirmar Cadastro</button>
+      </ion-item>
+    </ion-list>
+  </form>
+</div>
